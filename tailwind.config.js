@@ -7,8 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        mainbg: "url('/bgimg.png')",
+        footerbg: "url('/footerimgw.png')",
+      },
+      fontFamily: {
+        hind: ["Hind Siliguri", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        mulish: ["Mulish", "sans-serif"],
+      },
       colors: {
-        background: "var(--background)",
+        custom_green_dark: "#0B714C",
         foreground: "var(--foreground)",
       },
     },
