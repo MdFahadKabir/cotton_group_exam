@@ -66,14 +66,14 @@ export default function LogoTicker() {
             {logos.map((logo, index) => (
               <div
                 key={`logo-${setIndex}-${index}`}
-                className="w-60 sm:w-72 md:w-80 flex-none mx-4 my-auto"
+                className="w-20 sm:w-72 md:w-80 flex-none mx-4 my-auto"
               >
                 <Image
                   src={logo.src}
                   alt={`Logo ${index + 1}`}
                   width={300}
                   height={150}
-                  className="w-auto h-auto"
+                  className="md:w-auto md:h-auto w-20"
                 />
               </div>
             ))}
